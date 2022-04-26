@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design system</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4af22d591d.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container ">
+        <h1 class="uppercase">Design system</h1>
+
+        <section id="colors" style="margin: 4rem 0">
+            <h2 class="numbered-title"><span>01</span> colors</h2>
+            <div class="flex">
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-tarif text-white ff-main fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid white">#0B0D17</div>
+                    <p><span class="text-accent">RGB</span> 11, 13, 23</p>
+                    <p><span class="text-accent">HSL</span> 230°, 35%, 7%</p>
+                </div>
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-tarif-title text-white ff-serif fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid white">#D0D6F9</div>
+                    <p><span class="text-accent">RGB</span> 208, 214, 249</p>
+                    <p><span class="text-accent">HSL</span> 231°, 77%, 90%</p>
+                </div>
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-green text-white ff-serif fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid white;">#FFFFFF</div>
+                    <p><span class="text-accent">RGB</span> 255, 255, 255</p>
+                    <p><span class="text-accent">HSL</span> 0°, 0%, 100%</p>
+                </div>
+            </div>
+            <div class="flex ">
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-violet text-white ff-main fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid white">#0B0D17</div>
+                    <p><span class="text-accent">RGB</span> 11, 13, 23</p>
+                    <p><span class="text-accent">HSL</span> 230°, 35%, 7%</p>
+                </div>
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-blue text-white ff-serif fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid white">#D0D6F9</div>
+                    <p><span class="text-accent">RGB</span> 208, 214, 249</p>
+                    <p><span class="text-accent">HSL</span> 231°, 77%, 90%</p>
+                </div>
+                <div class="flow" style="flex-grow: 1;">
+                    <div class="bg-white text-dark ff-serif fs-500"
+                        style="padding: 3rem 1rem 1rem; border: 1px solid black;">#FFFFFF</div>
+                    <p><span class="text-accent">RGB</span> 255, 255, 255</p>
+                    <p><span class="text-accent">HSL</span> 0°, 0%, 100%</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="typography" style="margin: 4rem 0">
+            <h2 class="numbered-title text-dark"><span>02 </span>Typography</h2>
+            <div class="flex">
+                <div class="flow" style="flex-basis: 100%">
+                    <div>
+                        <p class="text-dark">Заголовок H1 - Montserrat bold - 48px </p>
+                        <p class="fs-800 fw-bold ff-main uppercase">Заголовок 1</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Заголовок H2 - Montserrat bold -36px</p>
+                        <p class="fs-700 fw-bold ff-main uppercase">Заголовок 2</p>
+                    </div>
+                    <div>
+                        <p class="text-accent">Заголовок H3 - Montserrat bold -28px </p>
+                        <p class="fs-600 ff-main fw-bold uppercase">Заголовок 3</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Tarif title - Poppins regular - 24px </p>
+                        <p class="fs-500 ff-tarif-title fw-bold uppercase">СПЕЦИАЛЬНЫЙ 300</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Tarif description - Roboto regular - 16px </p>
+                        <p class="text-dark fs-300 ff-tarif-option uppercase">100 Мбит/с</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Tarif Sub description - Roboto regular - 12px </p>
+                        <p class="text-dark fs-100 ff-tarif-option uppercase">Интернет</p>
+                    </div>
+
+                </div>
+
+                <div class="flow" style="flex-basis: 100%">
+                    <div>
+                        <p class="text-dark">Subheader 1 - Montserrat medium - 24px </p>
+                        <p class="fs-500 ff-main fw-medium uppercase">Подключи на выгодных условиях</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Montserrat bold - 24px</p>
+                        <p class="fs-500 uppercase ff-main fw-bold">Доступно в тарифах:</p>
+                    </div>
+                    <div>
+                        <p class="text-dark"> Subheader 3 - Montserrat regular - 18px </p>
+                        <p class=" fs-400 uppercase ff-main ">Интернет</p>
+                    </div>
+                    <div>
+                        <p class="text-dark">Body Text</p>
+                        <p>Смотрите ТВ на компьютере или ноутбуке: наслаждайтесь высоким качеством вещания и удобными
+                            функциями по управлению эфиром. Перейдите на сайт www.smotreshka.tv, укажите свой e-mail,
+                            пароль и нажмите «Войти» </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flow">
+            <h2 class="numbered-title"><span>03</span> Buttons</h2>
+
+            <!-- navigation -->
+
+
+            <div class="flex">
+
+
+                <div style="margin-bottom: 10vh">
+                    <!-- button 1 -->
+
+                    <a href="#" class="btn btn-primary bg-tarif-title fs-400 text-white">Жми тут!</a>
+                    <!-- Dots -->
+
+
+                    <!-- Numbers -->
+                </div>
+            </div>
+
+        </section>
+
+        <section style="margin-bottom: 10vh">
+            <h2 class="numbered-title"><span>04</span> Navigation</h2>
+
+            <!-- navigation desctop-->
+
+
+            <div id="tarif_block" class="tabs  page  underline-indicators">
+
+                <div id="tab-1" class="tab-item tab-border active">
+                    <i class="fas fa-wifi"></i>
+                    <p class="item-title fs-400 ff-main hide-sm">Интернет</p>
+                </div>
+                <div id="tab-2" class="tab-item ">
+                    <i class="fas fa-wifi" style="margin-left: 5px;"></i><i class="fas fa-tv"
+                        style="margin-left: 5px;"></i><i class="fas fa-film" style="margin-left: 5px;"></i>
+                    <p class="item-title hide-sm">Интернет+Интерактивное ТВ</p>
+                </div>
+                <!--  <div id="tab-3" class="tab-item ">
+                    <i class="fas fa-wifi" style="margin-left: 5px;"></i><i class="fas fa-tv"
+                        style="margin-left: 5px;"></i><i class="fas fa-film" style="margin-left: 5px;"></i>
+                    <p class="item-title hide-sm">Интернет+MEGOGO</p>
+                </div>-->
+
+
+            </div>
+
+        </section>
+        <section style="margin-bottom: 10vh">
+            <h2 class="numbered-title"><span>05</span> Tarifs</h2>
+            <div class="pricing-table">
+                <!--Tarifs -->
+
+                <div class="table">
+                    <h3 class="tarif-title" id="modal-title1">Специальный 300</h3>
+                    <!--Tarifs content-->
+                    <div class="content">
+                        <!-- Internet -->
+                        <img src="./img/speed-shape.svg" class="speed-icon"></img>
+                        <p class="speed-desc">300 мбит/с</p>
+                        <p class="speed-desc-serv">Интернет</p>
+
+                    </div>
+
+                    <div class="flex promo-price-container">
+                        <span class="promo-price">777</span>
+                        <div class="fs-200"
+                            style="display: flex; flex-direction: column;line-height: 1; align-items: center; justify-content: center;">
+                            <p class="cross-prices"> 499</p>
+                            <p>₽/месяц</p>
+                        </div>
+                    </div>
+                    <a class="btn-tarif uppercase" id="open1">Выбрать</a>
+                    <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                </div>
+                <!--End tarif1 -->
+                <div class="table">
+                    <h3 class="tarif-title bg-violet" id="modal-title2">Специальный 500+ТВ+GO</h3>
+                    <!--Tarifs content-->
+                    <div class="content">
+                        <!-- Internet -->
+                        <img src="./img/speed-shape-full.svg" class="speed-icon"></img>
+                        <p class="speed-desc">500 мбит/с</p>
+                        <p class="speed-desc-serv">Интернет</p>
+                        <!-- TV -->
+                        <img src="./img/tv-icon.svg" class="tv-icon"></img>
+                        <p class="tv-desc">110 каналов</p>
+                        <p class="tv-desc-serv">ТВ-каналов</p>
+                        <!-- Movie -->
+                        <img src="./img/logo-megogo.svg" class="movie-icon"></img>
+                        <p class="movie-desc">MEGOGO</p>
+                        <p class="movie-desc-serv">Онлайн-кинотеатр</p>
+                    </div>
+                    <!--   <div class="tarif-micro-tabs">
+                        <button class="fs-100">Оборудование</button>
+                        <button class="fs-100">Акция</button>
+                    </div>-->
+                    <div class="tarif-tab-container fs-100">
+                        <p>Фильмы и сериалы из подписок IVI, START, AMEDIATEKA</p>
+                    </div>
+
+                    <div class="flex promo-price-container">
+                        <span class="promo-price">777</span>
+                        <div class="fs-200"
+                            style="display: flex; flex-direction: column;line-height: 1; align-items: center; justify-content: center;">
+                            <p class="cross-prices"> 499</p>
+                            <p>₽/месяц</p>
+                        </div>
+                    </div>
+
+                    <a class="btn-tarif uppercase" id="open2">Выбрать</a>
+                    <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                </div>
+                <!--End tarif2 -->
+                <div class="table">
+                    <h3 class="bg-violet tarif-title" id="modal-title3">Удачный</h3>
+                    <!--Tarifs content-->
+                    <div class="content">
+                        <!-- Internet -->
+                        <img src="./img/speed-shape-full.svg" class="speed-icon"></img>
+                        <p class="speed-desc">500 мбит/с</p>
+                        <p class="speed-desc-serv">Интернет</p>
+                        <!-- TV -->
+                        <img src="./img/tv-icon.svg" class="tv-icon"></img>
+                        <p class="tv-desc">105 каналов</p>
+                        <p class="tv-desc-serv">ТВ-каналов</p>
+                        <!-- Movie -->
+                        <img src="./img/logo-megogo.svg" class="movie-icon"></img>
+                        <p class="movie-desc">MEGOGO</p>
+                        <p class="movie-desc-serv">Онлайн-кинотеатр</p>
+                        <!-- Movie -->
+                        <!-- <img src="./img/audio_m.svg" class="audio-icon"></img>
+                        <p class="audio-desc">10 000+</p>
+                        <p class="audio-desc-serv">Аудио-книги</p> -->
+                    </div>
+                    <!--  <div class="tarif-micro-tabs">
+                        <button class="fs-100">Оборудование</button>
+                        <button class="fs-100">Акция</button>
+                    </div>-->
+                    <div class="tarif-tab-container">
+                        <p class="fs-200">Аудио-книги, подкасты, оборудование </p>
+                    </div>
+                    <div class="flex promo-price-container">
+                        <span class="promo-price">777</span>
+                        <div class="fs-200"
+                            style="display: flex; flex-direction: column;line-height: 1; align-items: center; justify-content: center;">
+                            <p class="cross-prices"> 499</p>
+                            <p>₽/месяц</p>
+                        </div>
+                    </div>
+                    <a class="btn-tarif uppercase" id="open3">Выбрать</a>
+                    <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                </div>
+                <!--End tarif3 -->
+            </div>
+        </section>
+
+        <!--Features blocs-->
+        <section style="margin-bottom: 10vh">
+            <h2 class="numbered-title"><span>06</span>Features blocs</h2>
+            <div class="feature-blocks flow">
+                <div class="feature bg-violet text-white">
+                    <div class="feature-container">
+
+                        <div class="feature-txt">
+                            <div style="padding-bottom: 1rem;" class="feature-title fs-500 text-white ff-main fw-bold">
+                                До пяти устройств на одном
+                                аккаунте</div>
+                            <div class="feature-description">Большой выбор телеканалов, тысячи фильмов, сериалов в одном
+                                приложении. Пользоваться телевидением можно везде, где захочется ;)
+
+                                Смотри ТВ на большом экране с телеприставкой или Smart TV, на мобильных устройствах, на
+                                ноутбуках и компьютерах.
+                            </div>
+
+                        </div>
+                        <div class="feature-img  feature-img-1">
+                            <img src="./img/devices_1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Features blocs-->
+        <section style="margin-bottom: 10vh">
+            <h2 class="numbered-title"><span>06</span>Info blocs</h2>
+            <div class="info-blocks">
+                <div class="info-block">
+                    <p class="info-block-feature fs-200 uppercase fw-bold">500 <span
+                            style="font-size:.45rem;">Мбит/с</span></p>
+                    <p class="info-block-text fs-200">интернет</p>
+                    <div class="info-block-line"></div>
+                </div>
+                <div class="info-block">
+                    <p class="info-block-feature fs-600 uppercase fw-bold">300 +</p>
+                    <p class="info-block-text fs-200">тв-каналов</p>
+                    <div class="info-block-line"></div>
+                </div>
+                <div class="info-block">
+                    <p class="info-block-feature fs-600 uppercase fw-bold">10000 +</p>
+                    <p class="info-block-text fs-200">фильмов</p>
+                    <div class="info-block-line"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--  -->
+    <section style="margin-bottom: 10vh">
+        <h2 class="numbered-title"><span>05</span> Tarifs</h2>
+        <div class="pricing-table">
+            <!--Tarifs -->
+
+            <div class="table">
+                <h3 class="tarif-title" id="modal-title1">Специальный 300</h3>
+                <!--Tarifs content-->
+                <div class="content">
+                    <!-- Internet -->
+                    <img src="./img/speed-shape.svg" class="speed-icon"></img>
+                    <p class="speed-desc">300 мбит/с</p>
+                    <p class="speed-desc-serv">Интернет</p>
+
+                </div>
+                <div class="tarif-tab-container">
+                    <p class="fs-200">Аудио-книги, подкасты, оборудование </p>
+                </div>
+                <p class="pricing-container">
+                    <span class="price">500</span>₽/месяц
+                </p>
+                <a class="btn-tarif uppercase" id="open1">Выбрать</a>
+                <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                <div class="more-txt fs-200 bg-tarif">
+                    <p>
+                        Цены указаны на первые 3 месяца с учетом скидки. С 4 месяца услуги предоставляются на условиях
+                        действующих тарифных планов. При подключении на лицевой счет необходимо внести авансовый платеж
+                        в
+                        размере не менее 1000 руб.
+                    </p>
+                    <div class="more-btn2 more-btn3c text-dark-blue">
+                        <i class="fas fa-minus text-dark-blue fs-500"></i>
+                    </div>
+                </div>
+
+                <div class="more-btn more-btn3 bg-tarif">
+                    <i class="fas fa-plus fs-500"></i>
+                </div>
+            </div>
+            <!--End tarif1 -->
+            <div class="table">
+                <h3 class="tarif-title bg-violet" id="modal-title2">Специальный 500+ТВ+GO</h3>
+                <!--Tarifs content-->
+                <div class="content">
+                    <!-- Internet -->
+                    <img src="./img/speed-shape-full.svg" class="speed-icon"></img>
+                    <p class="speed-desc">500 мбит/с</p>
+                    <p class="speed-desc-serv">Интернет</p>
+                    <!-- TV -->
+                    <img src="./img/tv-icon.svg" class="tv-icon"></img>
+                    <p class="tv-desc">110 каналов</p>
+                    <p class="tv-desc-serv">ТВ-каналов</p>
+                    <!-- Movie -->
+                    <img src="./img/logo-megogo.svg" class="movie-icon"></img>
+                    <p class="movie-desc">MEGOGO</p>
+                    <p class="movie-desc-serv">Онлайн-кинотеатр</p>
+                </div>
+                <!--   <div class="tarif-micro-tabs">
+                    <button class="fs-100">Оборудование</button>
+                    <button class="fs-100">Акция</button>
+                </div>-->
+                <div class="tarif-tab-container fs-100">
+                    <p>Фильмы и сериалы из подписок IVI, START, AMEDIATEKA</p>
+                </div>
+                <p class="pricing-container">
+                    <span class="price">555</span>₽/месяц
+                </p>
+                <a class="btn-tarif uppercase" id="open2">Выбрать</a>
+                <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                <div class="more-txt fs-200 bg-tarif">
+                    <p>
+                        Цены указаны на первые 3 месяца с учетом скидки. С 4 месяца услуги предоставляются на условиях
+                        действующих тарифных планов. При подключении на лицевой счет необходимо внести авансовый платеж
+                        в
+                        размере не менее 1000 руб.
+                    </p>
+                    <div class="more-btn2 more-btn3c text-dark-blue">
+                        <i class="fas fa-minus text-dark-blue fs-500"></i>
+                    </div>
+                </div>
+
+                <div class="more-btn more-btn3 bg-tarif">
+                    <i class="fas fa-plus fs-500"></i>
+                </div>
+            </div>
+            <!--End tarif2 -->
+            <div class="table">
+                <h3 class="bg-violet tarif-title" id="modal-title3">Удачный</h3>
+                <!--Tarifs content-->
+                <div class="content">
+                    <!-- Internet -->
+                    <img src="./img/speed-shape-full.svg" class="speed-icon"></img>
+                    <p class="speed-desc">500 мбит/с</p>
+                    <p class="speed-desc-serv">Интернет</p>
+                    <!-- TV -->
+                    <img src="./img/tv-icon.svg" class="tv-icon"></img>
+                    <p class="tv-desc">105 каналов</p>
+                    <p class="tv-desc-serv">ТВ-каналов</p>
+                    <!-- Movie -->
+                    <img src="./img/logo-megogo.svg" class="movie-icon"></img>
+                    <p class="movie-desc">MEGOGO</p>
+                    <p class="movie-desc-serv">Онлайн-кинотеатр</p>
+                    <!-- Movie -->
+                    <!-- <img src="./img/audio_m.svg" class="audio-icon"></img>
+                    <p class="audio-desc">10 000+</p>
+                    <p class="audio-desc-serv">Аудио-книги</p> -->
+                </div>
+                <!--  <div class="tarif-micro-tabs">
+                    <button class="fs-100">Оборудование</button>
+                    <button class="fs-100">Акция</button>
+                </div>-->
+                <div class="tarif-tab-container">
+                    <p class="fs-200">Аудио-книги, подкасты, оборудование </p>
+                </div>
+                <p class="pricing-container">
+                    <span class="price">777</span>₽/месяц
+                </p>
+                <a class="btn-tarif uppercase" id="open3">Выбрать</a>
+                <img class="tarif-bg" src="./img/bg-shape.svg" alt="">
+                <div class="more-txt fs-200 bg-tarif">
+                    <p>
+                        Цены указаны на первые 3 месяца с учетом скидки. С 4 месяца услуги предоставляются на условиях
+                        действующих тарифных планов. При подключении на лицевой счет необходимо внести авансовый платеж
+                        в
+                        размере не менее 1000 руб.
+                    </p>
+                    <div class="more-btn2 more-btn3c text-dark-blue">
+                        <i class="fas fa-minus text-dark-blue fs-500"></i>
+                    </div>
+                </div>
+
+                <div class="more-btn more-btn3 bg-tarif">
+                    <i class="fas fa-plus fs-500"></i>
+                </div>
+            </div>
+
+            <!--End tarif3 -->
+        </div>
+    </section>
+
+</body>
+
+</html>
